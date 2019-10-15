@@ -2351,3 +2351,15 @@ span.email-notes {
   display: unset;
   width: unset;
 }
+
+.main-menu ul.navbar-nav li.active > a.not-link::after {
+    border: none;
+}
+
+.main-menu ul.navbar-nav li a.not-link:hover {
+    color: #fff;
+}
+
+.phone-number {
+  background-color: rgba(62, 193, 213, 0.4);
+}
