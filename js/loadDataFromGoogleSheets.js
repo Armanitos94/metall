@@ -46,7 +46,11 @@
   }
 
   function showInfo(data, tabletop) {
+
+    $("#blackMetalName").text(data[Object.keys(data)[0]].name);
     buildHtmlTable(data[Object.keys(data)[0]].elements, "#blackMetal");
+
+    $("#otherMetalName").text(data[Object.keys(data)[1]].name);
     buildHtmlTable(data[Object.keys(data)[1]].elements, "#otherMetal");
 
   }
