@@ -53,6 +53,9 @@
     $("#otherMetalName").text(data[Object.keys(data)[1]].name);
     buildHtmlTable(data[Object.keys(data)[1]].elements, "#otherMetal");
 
+    $("#sand").text(data[Object.keys(data)[2]].name);
+    buildHtmlTable(data[Object.keys(data)[2]].elements, "#sand");
+
   }
 
   window.addEventListener('DOMContentLoaded', init)
