@@ -2363,3 +2363,7 @@ span.email-notes {
 .phone-number {
   background-color: rgba(62, 193, 213, 0.4);
 }
+
+.main-menu ul.navbar-nav li a {
+    text-transform: none;
+}
